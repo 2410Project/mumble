@@ -70,28 +70,15 @@ Bandwidth usage
 Mumble uses between 8 and 96kbit/s when transmitting speech, depending on
 the input compression settings: Settings > Audio Input > Compression. 
 The default settings result in a bandwidth requirement of 54.8kbit/s per stream.
-You can also change these settings with three different presets in Audio Wizard.
-The Selections are as stated:
-
-Low (poor internet connection) set at 16kbit/s, 60ms per packet
-Balanced (recommended default) set at 40kbit/s, 20ms per packet
-High (bandwidth shouldn’t be an issue for the user) set at 72kbit/s, 10ms per packet
-
 
 The Mumble client will need your configured bandwidth outgoing, and an
 appropriate amount incoming based on the number of users talking and the
-compression settings. If you assume everyone is talking at once with the
-maximum bandwidth required, you can get the value by calculating
-the number of users in a specific channel * 144kbit/s
+compression settings.
 
-The Mumble server (Murmur) will need an appropriate amount of incoming
-bandwidth to handle all the incoming streams from each client speaking, as
-well as enough outgoing bandwidth to handle transmitting those streams to the
-other users in the channel. For example, if you have a server with 10 users who
-are all in the same channel and all speaking at once, the server will need a
-maximum outgoing bandwidth of: 
-144kbit/s * 9 users receiving each stream * 10 streams
- = 12960kbit/s in total.
+The Mumble server (Murmur) will need a certain amount of incoming
+bandwidth to handle all the streams from each client speaking, as
+well as enough outgoing bandwidth to transmit those streams to the
+other users in the channel. 
  
 Moreover, since Mumble is geared towards social gaming, the bit rates will be higher like above,
 because people will be talking continuously and also at the same time, rather than speaking short 
@@ -99,4 +86,7 @@ phrases or commands depending on quality settings.
 
  In the server's .ini file, you can specify the maximum allowed bitrate for users
  as well as the maximum number of clients to allow.
-
+ 
+ For direct values and equations for bandwidth values and settings, click here:
+ 
+ <link>
