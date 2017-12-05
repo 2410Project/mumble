@@ -26,6 +26,17 @@ disk image into your /Applications folder.
 Once Mumble is launched, you need a server to connect to. Either create your
 own or join a friend's.
 
+Building Mumble
+===============
+
+Mumble is capable of building on these systems:
+Linux, FreeBSD, OpenBSD, MacOSX, Windows.
+
+Requirements and needed tools can be located here:
+https://wiki.mumble.info/wiki/BuildingLinux
+
+Follow instructions carefully to create a successful build environment.
+
 Running Murmur on Unix-like systems
 ===================================
 
@@ -89,4 +100,4 @@ phrases or commands depending on quality settings.
  
  For direct values and equations for bandwidth values and settings, click here:
  
- <link>
+ <Wiki link with added info>
