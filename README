@@ -34,8 +34,11 @@ Linux, FreeBSD, OpenBSD, MacOSX, Windows.
 
 Requirements and needed tools can be located here:
 https://wiki.mumble.info/wiki/BuildingLinux
+or
+In the INSTALL file.
 
 Follow instructions carefully to create a successful build environment.
+
 
 Running Murmur on Unix-like systems
 ===================================
