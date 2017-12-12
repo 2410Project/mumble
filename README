@@ -97,10 +97,10 @@ other users in the channel.
 Moreover, since Mumble is geared towards social gaming, the bit rates will be higher like above,
 because people will be talking continuously and also at the same time, rather than speaking short 
 phrases or commands depending on quality settings.
++maximum outgoing bandwidth of: 
+ +144kbit/s * 9 users receiving each stream * 10 streams
+ + = 12960kbit/s in total.
 
  In the server's .ini file, you can specify the maximum allowed bitrate for users
  as well as the maximum number of clients to allow.
  
- For direct values and equations for bandwidth values and settings, click here:
- 
- <Wiki link with added info>
