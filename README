@@ -104,3 +104,17 @@ phrases or commands depending on quality settings.
  In the server's .ini file, you can specify the maximum allowed bitrate for users
  as well as the maximum number of clients to allow.
  
+ Security
+ ========
+ 
+For security concerns create a security@mumble.info to determine these specific concerns
+
+1) Vulnerability
+2) Affected versions and configurations
+3) Mitigation
+4) Details
+5) Credits
+6) Fix
+
+Here are examples of such security concerns
+https://www.mumble.info/security/
